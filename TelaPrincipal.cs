@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace Gerenciamento_de_Biblioteca
 {
-    public partial class Form1 : Form
+    public partial class Form_Telaprincipal : Form
     {
-        public Form1()
+        public Form_Telaprincipal()
         {
             InitializeComponent();
+            WindowState = FormWindowState.Maximized;
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
