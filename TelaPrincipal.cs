@@ -22,5 +22,17 @@ namespace Gerenciamento_de_Biblioteca
         {
 
         }
+
+        private void btn_alunos_Click(object sender, EventArgs e)
+        {
+            Form_Alunos formalunos = new Form_Alunos();
+                formalunos.TopLevel = false;
+                formalunos.FormBorderStyle = FormBorderStyle.None;
+                formalunos.Dock = DockStyle.Fill;
+            
+                formalunos.Show();
+                panel1.Controls.Add(formalunos);
+                formalunos.Show();
+        }
     }
 }

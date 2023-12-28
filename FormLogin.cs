@@ -40,7 +40,6 @@ namespace Gerenciamento_de_Biblioteca
                 this.Hide();
                 Form_Telaprincipal telaprincipal = new Form_Telaprincipal();
                 telaprincipal.Show();
-
             }
             else
             {
